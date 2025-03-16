@@ -32,14 +32,18 @@ section {
 header {
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('images/headerNova.jpg');
     background-size: cover;
-    background-position: center;
-    height: 100vh;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #fff;
     filter: grayscale(85%);
+    position: relative;
+    overflow: hidden;
 }
 
 .header-content {
@@ -358,6 +362,11 @@ footer p {
     
     .gift-image {
         max-width: 250px;
+    }
+    
+    header {
+        background-attachment: scroll;
+        background-position: top center;
     }
 }
 
