@@ -79,7 +79,7 @@ header h1 {
 .countdown h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #b56576; /* mesma cor romântica */
+    color: #c69c6d; /* mesma cor romântica */
     font-family: 'Playfair Display', serif;
 }
 
@@ -91,7 +91,7 @@ header h1 {
 }
 
 .countdown-boxes .box {
-    background-color: #b56576; /* quadradinhos rosa */
+    background-color: #c69c6d; /* quadradinhos rosa */
     color: #fff;
     padding: 15px 25px;
     border-radius: 10px;
