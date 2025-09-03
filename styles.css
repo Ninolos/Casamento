@@ -449,3 +449,31 @@ footer p {
         grid-row: 2;
     }
 } 
+
+.countdown {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.countdown h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #b56576; /* cor romântica */
+}
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 22px;
+}
+.countdown-timer div {
+    background: #fff3f3;
+    padding: 15px;
+    border-radius: 10px;
+    min-width: 80px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+.countdown-timer span {
+    font-weight: bold;
+    font-size: 26px;
+    color: #333;
+}

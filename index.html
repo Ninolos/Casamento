@@ -22,6 +22,15 @@
     </header>
     <section class="location-section">
         <div class="container">
+            <div id="countdown" class="countdown">
+                <h2>Faltam</h2>
+                <div class="countdown-timer">
+                    <div><span id="days"></span><p>Dias</p></div>
+                    <div><span id="hours"></span><p>Horas</p></div>
+                    <div><span id="minutes"></span><p>Min</p></div>
+                    <div><span id="seconds"></span><p>Seg</p></div>
+                </div>
+            </div>
             <h2>Local da Cerimônia & Festa</h2>
             <div class="location-details">
                 <div class="location-info">
@@ -97,5 +106,31 @@
     </footer>
 
     <script src="email.js"></script>
+    <script>
+            const weddingDate = new Date("August 16, 2025 17:00:00").getTime();
+
+            const x = setInterval(function() {
+                const now = new Date().getTime();
+                const distance = weddingDate - now;
+
+                // Cálculos
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Atualiza no HTML
+                document.getElementById("days").innerText = days;
+                document.getElementById("hours").innerText = hours;
+                document.getElementById("minutes").innerText = minutes;
+                document.getElementById("seconds").innerText = seconds;
+
+                // Se passou a data
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("countdown").innerHTML = "<h2>O grande dia chegou! 🎉</h2>";
+                }
+            }, 1000);
+    </script>
 </body>
 </html> 
