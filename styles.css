@@ -73,21 +73,45 @@ header h1 {
 
 .countdown {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .countdown h2 {
     font-size: 28px;
-    margin-bottom: 10px;
-    color: #b56576; /* mantém o romantismo */
+    margin-bottom: 20px;
+    color: #b56576; /* mesma cor romântica */
+    font-family: 'Playfair Display', serif;
 }
 
-.countdown-line {
-    font-size: 28px;
-    font-family: 'Playfair Display', serif; /* igual ao h2 */
-    font-weight: 700;
-    color: #000; /* preto */
+.countdown-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
+
+.countdown-boxes .box {
+    background-color: #b56576; /* quadradinhos rosa */
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 90px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+.countdown-boxes .box span {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.countdown-boxes .box p {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 
 
 .confirm-presence {
@@ -469,3 +493,13 @@ footer p {
     }
 } 
 
+@media (max-width: 480px) {
+    .countdown-boxes {
+        justify-content: center;
+    }
+
+    .countdown-boxes .box {
+        flex: 1 1 40%; /* ocupa ~metade da largura */
+        min-width: 120px;
+    }
+}
