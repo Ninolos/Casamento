@@ -173,7 +173,7 @@ header h1 {
 
 /* Seção de Sugestão de Presente */
 .gift-section {
-    background-color: #f0e6e6;
+    background-color: #a86f78;
     text-align: center;
     padding: 4rem 0;
 }
@@ -249,7 +249,7 @@ header h1 {
     min-width: 300px;
     margin: 1rem;
     padding: 2rem;
-    background-color: #f9f7f7;
+    background-color: #a86f78;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
