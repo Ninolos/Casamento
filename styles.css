@@ -162,7 +162,7 @@ header h1 {
 .info-section h2 {
     margin-bottom: 1.5rem;
     font-size: 2.5rem;
-    color: #d4a373;
+    color: #1C1C1C;
 }
 
 .info-section p {
@@ -180,7 +180,7 @@ header h1 {
 
 .gift-section h2 {
     font-size: 2.5rem;
-    color: #d4a373;
+    color: #1C1C1C;
 }
 
 .gift-description {
@@ -234,7 +234,7 @@ header h1 {
 .location-section h2 {
     margin-bottom: 2rem;
     font-size: 2.5rem;
-    color: #d4a373;
+    color: #1C1C1C;
 }
 
 .location-details {
@@ -256,7 +256,7 @@ header h1 {
 
 .location-info h3 {
     margin-bottom: 1rem;
-    color: #d4a373;
+    color: #1C1C1C;
 }
 
 .location-info p {
@@ -265,7 +265,7 @@ header h1 {
 
 .location-info i {
     margin-right: 0.5rem;
-    color: #d4a373;
+    color: #1C1C1C;
 }
 
 .map {
@@ -290,7 +290,7 @@ header h1 {
 
 .map h4 {
     margin-bottom: 0.5rem;
-    color: #d4a373;
+    color: #1C1C1C;
     text-align: center;
 }
 
@@ -303,7 +303,7 @@ header h1 {
 .rsvp-section h2 {
     margin-bottom: 1rem;
     font-size: 2.5rem;
-    color: #d4a373;
+    color: #1C1C1C;
 }
 
 .rsvp-section p {
@@ -344,7 +344,7 @@ textarea {
 }
 
 .btn {
-    background-color: #d4a373;
+    background-color: #1C1C1C;
     color: white;
     border: none;
     padding: 1rem 2rem;
